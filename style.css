@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    background-color: #F9F5FA;
+}
+.header{
+    margin: 0 3.333vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.111vw 0;
+}
+.logo{
+    font-family: Bebas Neue;
+    font-size: 2.917vw;
+    font-weight: 400;
+    line-height: 2.917vw;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+}
+.logo:hover{
+    cursor: pointer;
+    color: #47474a;
+}
+.page_link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top{
+    font-family: Bebas Neue;
+    font-size: 1.944vw;
+    font-weight: 400;
+    line-height: 2.222vw;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+    margin: 0 1.111vw;
+}
+.border{
+    border: 0.5px solid rgb(0, 0, 0, 1);
+}
+a:hover{
+    text-shadow:-2px 2px 4px #403c49;
+    transition: 0.5s;
+}
+.container{
+    margin: 3.333vw 0;
+    text-align: center;
+}
+.main{
+    margin: 0 3.333vw;
+}
+.landing1{
+    padding: 6.667vw 0;
+}
+.heading{
+    font-family: Bebas Neue;
+    font-size: 8.333vw;
+    font-weight: 400;
+    line-height: 8.333vw;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin-bottom: 3.333vw;
+}
+.img-responsive{
+    width: 100%;
+    height: auto;
+}
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3.333vw;
+    padding: 3.333vw 0;
+}
+.image{
+    width: 100%;
+    height: auto;
+}
+.project-title{
+    font-family: Roboto Mono;
+    font-size: 1.389vw;
+    font-weight: 400;
+    line-height: 1.667vw;
+    text-align: left;
+}
+.project-description{
+    font-family: Roboto Mono;
+    font-size: 1.181vw;
+    font-weight: 400;
+    line-height: 1.667vw;
+    text-align: left;
+}
+h2{
+    font-family: Bebas Neue;
+    font-size: 0;
+    font-weight: 0;
+    text-align: center;
+    opacity: 0;
+}
+@media (max-width: 768px) {
+    .row{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 3.333vw;
+        scale: 98%;
+    }
+    .project-title{
+        font-family: Roboto Mono;
+        font-size: 3.389vw;
+        font-weight: 400;
+        line-height: 3.667vw;
+        text-align: center;
+    }
+    .project-description{
+        font-family: Roboto Mono;
+        font-size: 3.181vw;
+        font-weight: 400;
+        line-height: 3.667vw;
+        text-align: center;
+    }
+    img{
+        border-radius: 5px;
+    }
+    .divider{
+        border: 1px dotted rgb(79, 79, 79);
+    }
+    h2{
+        opacity: 1;
+        font-size: 5.333vw;
+        font-weight: 400;
+        text-align: center;
+    }
+    img:hover{
+        cursor: pointer;
+        scale: 101%;
+        transition: 1s;
+        border-radius: 10px;
+        box-shadow: -5px 5px 4px #000000;
+    }
+}
+.contact_me{
+    padding: 3.333vw 0;
+    gap: 3.333vw;
+    margin: 0 3.333vw;
+    display: flex;
+    justify-content: space-between;
+}
+.cont{
+    font-family: Bebas Neue;
+    font-size: 1.944vw;
+    font-weight: 400;
+    line-height: 2.222vw;
+    letter-spacing: -0.01em;
+    text-align: left;
+    width: 45.556vw;
+}
+.des{
+    font-family: Roboto Mono;
+    font-size: 1.181vw;
+    font-weight: 400;
+    line-height: 1.944vw;
+    text-align: left;
+    margin-left: 8vw;
+}
+.landing_4{
+    padding: 13.889vw 0 ;
+    gap: 3.333vw;
+}
+.contact_form{
+    gap: 2.222vw;
+}
+.contact_content{
+    font-family: Bebas Neue;
+    font-size: 1.944vw;
+    font-weight: 400;
+    line-height: 2.222vw;
+    letter-spacing: -0.01em;
+    text-align: center;
+}
+.inputs{
+    gap: 0.833vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2vw 0;
+}
+input{
+    width: 2.889vw;
+    height: 3.444vw;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: -2px 2px 4px #322154;
+    font-family: Roboto Mono;
+    font-size: 1.389vw;
+    font-weight: 400;
+    line-height: 1.667vw;
+}
+.pink-box{
+    display: flex;
+    height: 800px;
+    width: 1344px;
+    /* background: rgb(253, 217, 222); */
+    
+}
+.image4{
+    height: 620px;
+    width: 720px;
+    padding-left: 50px;
+}
+.one{
+    font-size: 30px;
+    padding-top: 300px;
+    padding-left: 30px;
+}
+.submit{
+    width: 27.778vw;
+    padding: 0.556vw 1.111vw;
+    border-radius: 8px;
+    background-color: #CD3799;
+    color: white;
+    font-family: Roboto Mono;
+    font-size: 1.042vw;
+    font-weight: 400;
+    line-height: 1.389vw;
+    text-align: center;
+    border: none;
+}
+.skip{
+    font-family: Roboto Mono;
+    font-size: 1.042vw;
+    font-weight: 400;
+    line-height: 1.389vw;
+    text-align: left;
+    border: none;
+    margin-top: 2vw;
+}
+footer{
+    margin: 2vw 3.333vw;
+    padding: 6.667vw 0 1.667vw 0;
+    display: flex;
+    justify-content: space-between;
+}
+.foot{
+    font-family: Bebas Neue;
+    font-size: 1.944vw;
+    font-weight: 400;
+    line-height: 2.222vw;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+}
+.follow{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.833vw 1.667vw;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    font-family: Roboto Mono;
+    font-size: 1.389vw;
+    font-weight: 400;
+    line-height: 1.667vw;
+    text-align: left;
+}
+.submit:hover{
+    cursor: pointer;
+    background-color: #443bf6;
+}
+img:hover{
+    cursor: pointer;
+    scale: 103%;
+    transition: 1s;
+    border-radius: 10px;
+    box-shadow: -5px 5px 4px #000000;
+}
+.follow:hover{
+    background-color: #443bf6;
+    color: white;
+    cursor: pointer;
+    border: 1px transparent;
+}
+h1:hover{
+    animation: ease-in-animation 1s forwards;
+    background-color: #000000;
+    color: white;
+}
+@keyframes ease-in-animation {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+p{
+    font-size: 48px;
+    font-weight: 400;
+    /* height: 260px;
+    width: 900px; */
+    margin-left: 250px;
+    color: #421934;
+    text-align: center;
+}
