@@ -62,6 +62,7 @@ a:hover{
     letter-spacing: -0.02em;
     text-align: center;
     margin-bottom: 3.333vw;
+    color: #421934;
 }
 .img-responsive{
     width: 100%;
@@ -280,11 +281,11 @@ img:hover{
     cursor: pointer;
     border: 1px transparent;
 }
-h1:hover{
+/* h1:hover{
     animation: ease-in-animation 1s forwards;
     background-color: #000000;
-    color: white;
-}
+    color: white; */
+/* } */
 @keyframes ease-in-animation {
     0% {
         transform: translateX(100px);
